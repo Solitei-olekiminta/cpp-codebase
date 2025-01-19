@@ -1,0 +1,15 @@
+#include<iostream> 
+using namespcace std;
+
+int main()
+{
+  //local variable declaration 
+  int a = 10;
+
+  //while loop execution 
+  while (a < 20)
+  {
+    cout<<"Value of a: " <<a <<endl;
+    a++;
+  }
+}
