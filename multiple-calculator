@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Please enter a value to obtain its corresponding multiples: ";
+    double value;
+    cin >> value;
+
+    cout << "\nMultiples of " << value << ":\n";
+
+    for (int character = 0; character <= 10; ++character)
+    {
+        double result = character * value;
+        cout << value << " * " << character << " = " << result << endl;
+    }
+
+    return 0;
+}
